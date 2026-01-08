@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Programs</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #ffffff;
+            background-image: url(https://obmontessori.orangeapps.ph/landing/obmontessori/images/FV%20Facade.jpg);
+        }
+
+        h1 {
+            color: #0b4da2;
+            font-weight: 700;
+        }
+
+        .prog {
+            text-align: center;
+        }
+
+        .prog-image {
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .prog-image img {
+            width: 100%;
+            height: 230px;
+            object-fit: cover;
+        }
+
+        .prog-overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(37, 40, 67, 0.65);
+            color: #fff;
+            padding: 20px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .prog-image:hover .prog-overlay {
+            opacity: 1;
+        }
+
+        .prog-title {
+            margin-top: 10px;
+            font-weight: 600;
+        }
+
+        .container {
+            background-color: #ffffffee;
+            width: 1300px;
+            height: 700px;
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="page2.html">Courses Offer</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="page3.html">Contact Us</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="page4.html">Enroll Now</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="page5.html">About the Group Member</a>
+                </li>
+            </ul>
+
+            <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search">
+                <button class="btn btn-info" type="button">Search</button>
+            </form>
+        </div>
+        </div>
+    </nav>
+
+<div class="container px-3 py-7 background-color: #ffffee">
+    <div class="row mb-4">
+        <div class="col text-center">
+            <h1>Programs</h1>
+        </div>
+    </div>
+
+    <div class="row g-4 mb-4">
+
+        <div class="col-md-4">
+            <div class="prog">
+                <div class="prog-image">
+                    <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/f367c9fa-eafd-4481-ad5e-3f7bf6069fc6/O.B.+Montessori+Center%2C+Casa+Program?format=2500w" alt="Casa">
+                    <div class="prog-overlay">
+                        <h5>Casa (Ages 3-5)</h5>
+                        <p>
+                            (Pre-Kindergarten to Kindergarten)<br>
+                        <h6>The Casa Program supports children ages 3–5 as they shape their personalities and intelligence, exploring Montessori materials through sensory discovery in a prepared environment. It nurtures their natural curiosity, helping them build confidence and independence at this vital stage of growth.</h6>
+                        </p>
+                    </div>
+                </div>
+                <p class="prog-title">Casa Program</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="prog">
+                <div class="prog-image">
+                    <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/15317fb6-cf4e-441e-9094-7c11c26b4fd2/O.B.+Montessori+Center%2C+Primary+Program?format=2500w" alt="Primary">
+                    <div class="prog-overlay">
+                        <h5>Primary (Ages 6-8)</h5>
+                        <p>
+                            (Grades 1-3)<br>
+                            <h6>
+                            In the Primary Grade School Program, the classroom’s prepared environment aids the intellectual and physical development of students from ages 6 to 8 until they achieve independence from adults and gain confidence as they relate to the world.</h6>
+                        </p>
+                    </div>
+                </div>
+                <p class="prog-title">Primary Grade School</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="prog">
+                <div class="prog-image">
+                    <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/c6e672dc-a481-443e-ba44-0c997e79147a/O.B.+Montessori+Center%2C+Intermediate+Program?format=2500w" alt="Intermediate">
+                    <div class="prog-overlay">
+                        <h5>Intermediate (Ages 9-12)</h5>
+                        <p>
+                            (Grades 4-6)<br>
+                           <h6>In the Intermediate Grade School Program, the students from ages 9 to 12 deepen their knowledge about their universal responsibility to care for life and the environment. The curriculum enhances academic proficiency while facilitating teamwork, problem-solving, and leadership skills.</h6>
+                        </p>
+                    </div>
+                </div>
+                <p class="prog-title">Intermediate Grade School</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row g-4 justify-content-center">
+
+        <div class="col-md-4">
+            <div class="prog">
+                <div class="prog-image">
+                    <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/be8a19b1-6fa9-4d93-83f3-cccbfed8c577/JAR_3329a.jpg?format=2500w" alt="Junior High">
+                    <div class="prog-overlay">
+                        <h5>Junior High School (Ages 13-16)</h5>
+                        <p>
+                            (Grade 7-10)<br>
+                         <h6>Our Junior High Program nurtures students ages 13–16, guiding their emotional and social growth while strengthening problem-solving, collaboration, and communication skills to prepare them for independence.</h6>
+                        </p>
+                    </div>
+                </div>
+                <p class="prog-title">Junior High School</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="prog">
+                <div class="prog-image">
+                    <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/94a0554e-f0cc-4c44-a0b2-7cb83b863254/SENIOR+HIGH+SCHOOL++PROGRAM+-+HERO+IMAGE+-+RAF09579.JPG?format=2500w" alt="Senior High">
+                    <div class="prog-overlay">
+                        <h5>Senior High School (Ages 17-18)</h5>
+                        <p>
+                            (Grade 11-12)<br>
+                         <h6>The Senior High School Program further equips the students ages 17-18 with the skills and knowledge necessary for future success. The curriculum is GAS Plus, which allows the students flexibility in exploring career options and moving up to the tertiary level of any local or international college or university.</h6>
+                        </p>
+                    </div>
+                </div>
+                <p class="prog-title">Senior High School</p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
